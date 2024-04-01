@@ -50,25 +50,30 @@
 - 프롬프팅을 공부해서 두명이 나올 수 있는 커플 사진을 생성했습니다.
 - 예시 사진들
   <p>
-  <img src="https://github.com/lakecrimsonn/loveloveshot/assets/118543824/23b9f0b8-823e-4d72-a383-3e53815a93c3"  width="10%" height="10%"/>
-  <img src="https://github.com/lakecrimsonn/loveloveshot/assets/118543824/f4a60403-19d0-4aca-9248-78f5d4d6042b"  width="10%" height="10%"/>
-  <img src="https://github.com/lakecrimsonn/loveloveshot/assets/118543824/115bff44-5a2a-4196-9ac6-5b8fc9b1a571"  width="10%" height="10%"/>
+  <img src="https://github.com/lakecrimsonn/loveloveshot/assets/118543824/23b9f0b8-823e-4d72-a383-3e53815a93c3"  width="30%" height="30%"/>
+  <img src="https://github.com/lakecrimsonn/loveloveshot/assets/118543824/f4a60403-19d0-4aca-9248-78f5d4d6042b"  width="30%" height="30%"/>
+  <img src="https://github.com/lakecrimsonn/loveloveshot/assets/118543824/115bff44-5a2a-4196-9ac6-5b8fc9b1a571"  width="30%" height="30%"/>
   <br/>
   </p>
   
 ### 화질 개선
-- 사용하는 모델이 기본적으로 512px를 바탕으로 실행이 되기 때문에, 화질 키우는 ai모델을 도입.
-- gfpgan모델은 사진의 화질을 올릴 수 있는 모델. 상업적으로 이용가능.
-<p>
-  <img src="https://github.com/lakecrimsonn/loveloveshot/assets/118543824/7ebacfea-2ceb-47f4-890b-4e5fbee6f22e"  width="20%" height="20%"/>
-  <img src="https://github.com/lakecrimsonn/loveloveshot/assets/118543824/fede5f66-e171-4dcd-8a45-8c476ae27156"  width="20%" height="20%"/>
-  <br/>
-  <em>인채와 카*나 합성한 사진</em>  
-</p>
+- 사용하는 모델이 기본적으로 512px를 바탕으로 실행이 되기 때문에, 화질 키우는 ai모델을 도입했습니다.
+- gfpgan모델은 사진의 화질을 올릴 수 있는 모델입니다.
+  <p>
+    <img src="https://github.com/lakecrimsonn/loveloveshot/assets/118543824/7ebacfea-2ceb-47f4-890b-4e5fbee6f22e"  width="20%" height="20%"/>
+    <img src="https://github.com/lakecrimsonn/loveloveshot/assets/118543824/fede5f66-e171-4dcd-8a45-8c476ae27156"  width="20%" height="20%"/>
+    <br/>
+    <em>인채와 카*나 합성한 사진</em>  
+  </p>
 
 ### 딥페이크 모델
-- 유명한 모델 inswapper128은 상업적으로 이용이 불가.
-- 상업적으로 사용할 수 있는 모델을 개발. mobile face swap을 개선해서 사용함.
+- 유명한 모델 inswapper128은 상업적으로 이용이 불가합니다.
+- 상업적으로 사용할 수 있는 모델이 필요했고, mobile face swap을 개선해서 사용하기로 했습니다.
+- https://github.com/Seanseattle/MobileFaceSwap
+  <p>
+    <img src="https://github.com/Seanseattle/MobileFaceSwap/raw/master/docs/video.gif"  width="50%" height="50%"/>
+    <br/>
+  </p>
   
 
     
